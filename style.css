@@ -1,0 +1,160 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+}
+
+
+.upper{
+    text-align: center;
+}
+
+
+.right{
+    position: relative;
+    
+    width: 100%;
+    
+}  
+
+.title{
+    position: relative;
+    bottom: 11px;
+    width: 100%;
+    height: 50%;
+    top: 20%;
+}
+
+.inside-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    flex: 1;
+    top: 25%;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title > h1{
+    position: relative;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.title > h1 > span{
+    position: relative;
+    top: 30%;
+    font-size: 2em;
+
+    width: 100%;
+}
+
+.button-option{
+    position: relative;
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+
+.option{
+    height: 15vh;
+    line-height: 15vh;  
+    min-width: 10vh;  
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+}
+
+
+
+.option:hover{
+    transform: translateX(1px) translateY(1px);
+    box-shadow: 3px 3px black;
+}
+
+.option:active{
+    transform: translateX(2px) translateY(2px);
+    box-shadow: none;
+}
+
+.option:focus{
+    background-image: linear-gradient(black, blue);
+    color: white;
+    border: 1px solid white;
+}
+
+.winnerbox{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    
+    
+    
+}
+
+.winnerbox > span{
+    position: relative;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.scores{
+    position: relative;
+    width: 30%;
+    margin: auto;
+    font-weight: bold;
+    height: o.5em;
+    display: flex;
+    flex: 1 ;
+    justify-content: center;
+    gap: 30%;
+    bottom: 20%;
+}
+
+.restart{
+    position: relative;
+    height: 6vh;
+    width: 12vh;
+    bottom: 10%;   
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+}
+
+.restart:hover{
+    transform: translateX(1px) translateY(1px);
+    box-shadow: 3px 3px black;
+}
+
+.restart:active{
+    transform: translateX(2px) translateY(2px);
+    box-shadow: none;
+}
+
+.restart:focus{
+    opacity: 0.8;
+    color: black;
+    border: 1px solid white;
+}
+
+.sign{
+    text-align: center;
+}
